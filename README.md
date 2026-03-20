@@ -1,12 +1,16 @@
 ### Hey, I'm Goutham 👋
----
+
 Senior Machine Learning Engineer at [Red Hat](https://www.redhat.com), working on open-source LLM inference and serving infrastructure.
+
+I contribute to [vLLM](https://github.com/vllm-project/vllm) and the broader LLM deployment ecosystem — building high-throughput, memory-efficient systems that make large language models practical at scale.
+
 ---
+
 #### What I'm focused on
 
-- **LLM Inference & Serving** 
-- **Open-Source AI Infrastructure** 
-- **Applied Deep Learning**
+- **LLM Inference & Serving** — 
+- **Open-Source AI Infrastructure** — 
+- **Applied Deep Learning** — 
 
 #### Previously
 
