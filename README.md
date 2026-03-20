@@ -1,16 +1,12 @@
-### Hey, I'm Madhu Goutham 👋
+### Hey, I'm Goutham 👋
 
 Senior Machine Learning Engineer at [Red Hat](https://www.redhat.com), working on open-source LLM inference and serving infrastructure.
-
-I contribute to [vLLM](https://github.com/vllm-project/vllm) and the broader LLM deployment ecosystem — building high-throughput, memory-efficient systems that make large language models practical at scale.
-
 ---
-
 #### What I'm focused on
 
-- **LLM Inference & Serving** — Contributing to vLLM's inference engine, optimizing throughput and memory efficiency for production LLM deployments
-- **Open-Source AI Infrastructure** — Building tools and systems within Red Hat's AI/ML stack including RHEL AI, InstructLab, and Granite models
-- **Applied Deep Learning** — Computer vision, geospatial AI, and predictive systems with end-to-end ML pipelines
+- **LLM Inference & Serving** 
+- **Open-Source AI Infrastructure** 
+- **Applied Deep Learning**
 
 #### Previously
 
