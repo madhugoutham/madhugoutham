@@ -1,57 +1,28 @@
-## Hey, I'm Madhu Goutham
+### Hey, I'm Madhu Goutham 👋
 
-**Senior Machine Learning Engineer** — I design and build intelligent systems that bridge deep learning research with production-ready applications.
+Senior Machine Learning Engineer at [Red Hat](https://www.redhat.com), working on open-source LLM inference and serving infrastructure.
 
-My work spans computer vision, geospatial AI, predictive modeling, and full-stack ML deployment. I care about writing clean pipelines that actually ship.
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-madhugoutham.github.io-000?style=flat&logo=safari&logoColor=white)](https://madhugoutham.github.io)
-[![Email](https://img.shields.io/badge/Email-amgr55555@gmail.com-000?style=flat&logo=gmail&logoColor=white)](mailto:amgr55555@gmail.com)
+I contribute to [vLLM](https://github.com/vllm-project/vllm) and the broader LLM deployment ecosystem — building high-throughput, memory-efficient systems that make large language models practical at scale.
 
 ---
 
-### What I Work With
+#### What I'm focused on
 
-**ML & Deep Learning** · TensorFlow · Keras · scikit-learn · XGBoost · PyTorch · NumPy · Pandas
+- **LLM Inference & Serving** — Contributing to vLLM's inference engine, optimizing throughput and memory efficiency for production LLM deployments
+- **Open-Source AI Infrastructure** — Building tools and systems within Red Hat's AI/ML stack including RHEL AI, InstructLab, and Granite models
+- **Applied Deep Learning** — Computer vision, geospatial AI, and predictive systems with end-to-end ML pipelines
 
-**Languages** · Python · TypeScript · JavaScript
+#### Previously
 
-**Web & Cloud** · Next.js · React · Node.js · Google Cloud · Vercel
+- Built a [DenseNet201 satellite building classification](https://github.com/madhugoutham/DenseNet201-Satellite-Building-Classification) pipeline achieving 84.4% accuracy across 18,000+ Google Earth images
+- Research on [zero-shot image classification](https://github.com/madhugoutham/Enhanced-Image-Classification-for-Unseen-Class-Detection) for unseen class detection
+- Developed [AI-powered water body detection](https://github.com/madhugoutham/Water-body-detection) using Google Gemini
+- Full-stack ML applications with Next.js, React, and cloud deployment
 
-**Tools** · Git · GitHub Actions · Jupyter · Docker
+#### Technologies
 
----
-
-### Selected Projects
-
-**[Satellite Building Classification](https://github.com/madhugoutham/DenseNet201-Satellite-Building-Classification)**
-DenseNet201 + ReFineNet pipeline for classifying buildings from Google Earth imagery into 7 categories across 50 U.S. states. **84.4% accuracy** on 18,000+ satellite images.
-
-**[Enhanced Image Classification for Unseen Classes](https://github.com/madhugoutham/Enhanced-Image-Classification-for-Unseen-Class-Detection)**
-Zero-shot learning research — training models to recognize object categories they've never seen before. Exploring generalization boundaries in deep image classification.
-
-**[Stock Price Prediction](https://github.com/madhugoutham/Stock_Price_Prediction)**
-Ensemble ML pipeline comparing Decision Tree, Random Forest, Gradient Boosting, and XGBoost for next-day stock forecasting. Best model achieves **R² ≈ 0.86**.
-
-**[Water Body Detection](https://github.com/madhugoutham/Water-body-detection)**
-Full-stack TypeScript web app integrating Google Gemini AI for automated water body detection and environmental analysis.
-
-**[Fraud Detection](https://github.com/madhugoutham/fraud-detection)**
-ML system for identifying fraudulent transactions with a focus on anomaly detection and handling class imbalance.
+Python · PyTorch · TensorFlow · CUDA · vLLM · Triton · scikit-learn · XGBoost · TypeScript · Next.js · Docker · Kubernetes · Git
 
 ---
 
-### Currently
-
-- Building geospatial AI systems with satellite imagery and deep learning
-- Researching zero-shot and few-shot learning for real-world classification
-- Shipping ML models as full-stack web applications
-
----
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=madhugoutham&theme=transparent&hide_border=true&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <sub>Open to collaborations on ML research and AI-driven applications.</sub>
-</p>
+<sub>Open to collaborations on LLM inference, open-source AI infrastructure, and ML systems research.</sub>
