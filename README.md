@@ -6,16 +6,14 @@ Senior Machine Learning Engineer at [Red Hat](https://www.redhat.com), working o
 
 #### What I'm focused on
 
-- **LLM Inference & Serving** — 
-- **Open-Source AI Infrastructure** — 
-- **Applied Deep Learning** — 
+- **LLM Inference & Serving**  
+- **Open-Source AI Infrastructure**  
+- **Applied Deep Learning**  
 
 #### Previously
 
 - Built a [DenseNet201 satellite building classification](https://github.com/madhugoutham/DenseNet201-Satellite-Building-Classification) pipeline achieving 84.4% accuracy across 18,000+ Google Earth images
 - Research on [zero-shot image classification](https://github.com/madhugoutham/Enhanced-Image-Classification-for-Unseen-Class-Detection) for unseen class detection
-- Developed [AI-powered water body detection](https://github.com/madhugoutham/Water-body-detection) using Google Gemini
-- Full-stack ML applications with Next.js, React, and cloud deployment
 
 #### Technologies
 
