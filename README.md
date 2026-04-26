@@ -1,24 +1,10 @@
-### Hey, I'm Goutham 👋
+### Madhu Goutham 👋
 
-Senior Machine Learning Engineer at [Red Hat](https://www.redhat.com), working on open-source LLM inference and serving infrastructure.
+Senior ML Engineer at **[Red Hat](https://www.redhat.com)** AI Inference Engineering.
+Kubernetes-native distributed LLM inference.
 
----
+**Working on**
+[llm-d](https://github.com/llm-d/llm-d) · [KServe](https://github.com/kserve/kserve) · [Gateway API Inference Extension](https://github.com/kubernetes-sigs/gateway-api-inference-extension) · [vLLM](https://github.com/vllm-project/vllm)
 
-#### What I'm focused on
-
-- **LLM Inference & Serving**  
-- **Open-Source AI Infrastructure**  
-- **Applied Deep Learning**  
-
-#### Previously
-
-- Built a [DenseNet201 satellite building classification](https://github.com/madhugoutham/DenseNet201-Satellite-Building-Classification) pipeline achieving 84.4% accuracy across 18,000+ Google Earth images
-- Research on [zero-shot image classification](https://github.com/madhugoutham/Enhanced-Image-Classification-for-Unseen-Class-Detection) for unseen class detection
-
-#### Technologies
-
-Python · PyTorch · TensorFlow · CUDA · vLLM · Triton · scikit-learn · XGBoost · TypeScript · Next.js · Docker · Kubernetes · Git
-
----
-
-<sub>Open to collaborations on LLM inference, open-source AI infrastructure, and ML systems research.</sub>
+**Interests**
+P/D disaggregation · inference scheduling · KServe `LLMInferenceService` · EPP scorers · KEDA autoscaling
