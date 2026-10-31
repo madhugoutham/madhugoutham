@@ -1,4 +1,4 @@
-Most days I make sure expensive GPUs never get a lunch break. Batch jobs eat the leftovers.
+I play traffic cop for GPUs—prefill here, decode there. 🚦😂.
 
 **Paper** · [A novel high-resolution satellite imagery approach for surface water detection in the United States](https://doi.org/10.1080/02626667.2026.2729470)<br>
 <sub>Hydrological Sciences Journal, 2026. [Plain-English summary](https://madhugoutham.com/#research)</sub>
