@@ -47,8 +47,14 @@ jobs:
           SILENT: "true"
           MAX_RETRIES: 5
 
+      - name: Download streak cards
+        run: |
+          base="https://streak-stats.demolab.com?user=madhugoutham&hide_border=true"
+          curl -fsSL -o streak-dark.svg  "$base&theme=dark&background=0D1117"
+          curl -fsSL -o streak-light.svg "$base&theme=default"
+
       - name: Commit images
         run: |
-          git add overview.svg languages.svg
+          git add overview.svg languages.svg streak-dark.svg streak-light.svg
           git commit -m "Update generated stats" || true
           git push origin generated
