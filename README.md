@@ -12,10 +12,10 @@ I play traffic cop for GPUs🚦😂.
 **Talk** · [llm-d-async: Efficient Asynchronous Inference for Batch Workloads](https://pretalx.devconf.info/devconf-us-2026/talk/JLMV9M/)<br>
 <sub>DevConf.US, Boston, 2026-09-24</sub>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=madhugoutham&show_icons=true&hide_border=true&theme=dark_github">
-  <img alt="GitHub stats for madhugoutham" src="https://github-stats-extended.vercel.app/api?username=madhugoutham&show_icons=true&hide_border=true&theme=light_github" height="165">
-</picture>
+![](https://github.com/madhugoutham/madhugoutham/blob/generated/overview.svg#gh-dark-mode-only)
+![](https://github.com/madhugoutham/madhugoutham/blob/generated/overview.svg#gh-light-mode-only)
+![](https://github.com/madhugoutham/madhugoutham/blob/generated/languages.svg#gh-dark-mode-only)
+![](https://github.com/madhugoutham/madhugoutham/blob/generated/languages.svg#gh-light-mode-only)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=madhugoutham&hide_border=true&theme=dark&background=0D1117">
   <img alt="Contribution streak for madhugoutham" src="https://streak-stats.demolab.com?user=madhugoutham&hide_border=true&theme=default" height="165">
