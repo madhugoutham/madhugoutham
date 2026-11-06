@@ -16,8 +16,8 @@ I play traffic cop for GPUs🚦😂.
 ![](https://github.com/madhugoutham/madhugoutham/blob/generated/overview.svg#gh-light-mode-only)
 ![](https://github.com/madhugoutham/madhugoutham/blob/generated/languages.svg#gh-dark-mode-only)
 ![](https://github.com/madhugoutham/madhugoutham/blob/generated/languages.svg#gh-light-mode-only)
-![Contribution streak](https://streak-stats.demolab.com?user=madhugoutham&hide_border=true&theme=dark&background=0D1117#gh-dark-mode-only)
-![Contribution streak](https://streak-stats.demolab.com?user=madhugoutham&hide_border=true&theme=default#gh-light-mode-only)
+![Contribution streak](https://github.com/madhugoutham/madhugoutham/blob/generated/streak-dark.svg#gh-dark-mode-only)
+![Contribution streak](https://github.com/madhugoutham/madhugoutham/blob/generated/streak-light.svg#gh-light-mode-only)
 
 <samp>[merged&nbsp;PRs](https://madhugoutham.com/#ledger)</samp>
 
