@@ -18,12 +18,15 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Download jstrieb/github-stats 2.0.1
+      - uses: actions/checkout@v6
+        with: { repository: jstrieb/github-stats, ref: ef574fae2ce8311f3e1ebb43e07c0c0fae0a41b6, path: .gh-stats-src }
+      - uses: mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29  # v2
+        with: { version: 0.16.0 }
+      - name: Build github-stats
         run: |
-          curl -fsSL -o "$RUNNER_TEMP/github-stats" \
-            https://github.com/jstrieb/github-stats/releases/download/2.0.1/github-stats_x86_64-linux
-          echo "5e15e02803559cec5b5bdae4f202939846789c4cd3a34cfd24ee9ff13d6902c5  $RUNNER_TEMP/github-stats" | sha256sum -c -
-          chmod +x "$RUNNER_TEMP/github-stats"
+          (cd .gh-stats-src && zig build)
+          mv .gh-stats-src/zig-out/bin/github-stats "$RUNNER_TEMP/github-stats"
+          rm -rf .gh-stats-src
 
       - name: Switch to generated branch
         run: |
