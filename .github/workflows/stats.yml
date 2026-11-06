@@ -1,0 +1,51 @@
+name: Generate stats images
+
+on:
+  schedule:
+    - cron: "5 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash -euo pipefail {0}
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Download jstrieb/github-stats 2.0.1
+        run: |
+          curl -fsSL -o "$RUNNER_TEMP/github-stats" \
+            https://github.com/jstrieb/github-stats/releases/download/2.0.1/github-stats_x86_64-linux
+          echo "5e15e02803559cec5b5bdae4f202939846789c4cd3a34cfd24ee9ff13d6902c5  $RUNNER_TEMP/github-stats" | sha256sum -c -
+          chmod +x "$RUNNER_TEMP/github-stats"
+
+      - name: Switch to generated branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git fetch --depth=1 origin generated; then
+            git checkout -B generated origin/generated
+          else
+            git checkout --orphan generated
+            git rm -rf --quiet .
+          fi
+
+      - name: Generate images
+        run: '"$RUNNER_TEMP/github-stats"'
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          EXCLUDE_PRIVATE: "true"
+          SILENT: "true"
+          MAX_RETRIES: 5
+
+      - name: Commit images
+        run: |
+          git add overview.svg languages.svg
+          git commit -m "Update generated stats" || true
+          git push origin generated
