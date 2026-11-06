@@ -16,9 +16,9 @@ I play traffic cop for GPUs🚦😂.
 ![](https://github.com/madhugoutham/madhugoutham/blob/generated/overview.svg#gh-light-mode-only)
 ![](https://github.com/madhugoutham/madhugoutham/blob/generated/languages.svg#gh-dark-mode-only)
 ![](https://github.com/madhugoutham/madhugoutham/blob/generated/languages.svg#gh-light-mode-only)
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=madhugoutham&hide_border=true&theme=dark&background=0D1117">
-  <img alt="Contribution streak for madhugoutham" src="https://streak-stats.demolab.com?user=madhugoutham&hide_border=true&theme=default" height="165">
-</picture>
+![Contribution streak](https://streak-stats.demolab.com?user=madhugoutham&hide_border=true&theme=dark&background=0D1117#gh-dark-mode-only)
+![Contribution streak](https://streak-stats.demolab.com?user=madhugoutham&hide_border=true&theme=default#gh-light-mode-only)
 
 <samp>[merged&nbsp;PRs](https://madhugoutham.com/#ledger)</samp>
+
+[LinkedIn](https://www.linkedin.com/in/madhu-goutham-reddy-ambati) · [X](https://x.com/Madhuua) · [Blog](https://madhugoutham.com)
